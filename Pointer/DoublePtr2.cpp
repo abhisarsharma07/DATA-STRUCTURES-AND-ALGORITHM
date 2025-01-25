@@ -1,14 +1,14 @@
 #include<iostream>
 using namespace std;
 void update(int **p2){
-     //check baari baari
-p2=p2+1;
+   //check baari baari
+p2=p2+1;//No change
 // *p=*p+1;
 // **p=**p+1;
 }
 int main(){
 
-     int i = 5;
+    int i = 5;
     int* p = &i;
     int** p2 = &p;
 
