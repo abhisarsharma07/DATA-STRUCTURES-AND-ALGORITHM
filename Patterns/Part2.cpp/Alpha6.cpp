@@ -8,12 +8,12 @@ int main()
      int i=1;
      while(i<=n){
           int j=0;
-        
+        char ch= 'A' + n -i;
           
           while(j<i){
-               char ch= 'A' + i + j -1;
+               
                cout<<ch;
-              
+               ch++;
                j++;
           }
           cout<<endl;
